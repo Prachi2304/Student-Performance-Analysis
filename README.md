@@ -1,4 +1,3 @@
-#Student Performance Analysis.
 # 🎓 Student Performance Analysis System
 
 A desktop-based **Student Performance Analysis System** built using **Python** and **Tkinter**, designed to analyze academic records through a user-friendly GUI. It allows administrators and educators to manage students, courses, and results while providing visual insights through dynamic charts and reports.

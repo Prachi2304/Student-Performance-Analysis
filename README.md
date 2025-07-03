@@ -1,38 +1,43 @@
 #Student Performance Analysis.
-# 📊 Student Performance Analysis System
+# 🎓 Student Performance Analysis System
 
-A Python-based data analysis project that helps educators and institutions gain **insights into student performance** using statistical methods and visualizations. This system processes academic data to identify trends, outliers, and key performance indicators, assisting in **data-driven decision making**.
+A desktop-based **Student Performance Analysis System** built using **Python** and **Tkinter**, designed to analyze academic records through a user-friendly GUI. It allows administrators and educators to manage students, courses, and results while providing visual insights through dynamic charts and reports.
 
 ---
 
 ## 🎯 Objective
 
-To analyze student academic data for meaningful patterns, highlight performance gaps, and provide actionable insights to improve teaching strategies and student outcomes.
+To help institutions **digitize and analyze** student academic data in real-time, enabling smarter decisions through insights and visualizations.
 
 ---
 
-## 🔍 Key Features
+## 🧩 Key Features
 
-- 📁 Reads structured student data from CSV/Excel files
-- 📈 Data visualization using graphs and charts
-- 📊 Statistical analysis (mean, median, correlation, etc.)
-- 🎓 Performance categorization (e.g., High / Medium / Low)
-- 🧠 Optional predictive insights (e.g., grade prediction using regression)
-- 📤 Exportable reports in CSV or image formats
+- 📋 Add, update, and delete student records
+- 📚 Manage courses and subjects
+- 📈 Enter and visualize student results (2D & 3D graphs)
+- 📊 Real-time performance analysis and reporting
+- 🛢️ MySQL backend integration
+- 🎨 Modern UI using `customtkinter` and embedded graphs via `matplotlib`
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies & Libraries Used
 
-| Tool/Library      | Description                                |
-|-------------------|--------------------------------------------|
-| **Python 3.x**     | Core programming language                  |
-| **Pandas**         | Data manipulation and analysis             |
-| **Matplotlib**     | Data visualization                         |
-| **Seaborn**        | Statistical plotting                       |
-| **NumPy**          | Numerical calculations                     |
-| **Scikit-learn** *(optional)* | ML models (e.g., regression)    |
-| **Tkinter** *(optional)* | GUI interface (if used)             |
+| Library/Tool             | Purpose                                         |
+|--------------------------|-------------------------------------------------|
+| **Tkinter**              | GUI development                                 |
+| **customtkinter**        | Modern styling for Tkinter                      |
+| **Pandas**               | Data manipulation and CSV handling              |
+| **Matplotlib**           | Data visualization (2D and 3D)                  |
+| **MySQL Connector**      | Connect Python with MySQL database              |
+| **SQLite3**              | Lightweight local storage (optional)            |
+| **Pillow (PIL)**         | Image loading and resizing                      |
+| **NumPy**                | Numerical operations                            |
+| **ttk**                  | Themed widgets in Tkinter                       |
+| **Webbrowser**           | Open URLs for help/documentation                |
+| **math**                 | Used for calculations (e.g., factorials)        |
+| **modular scripts**      | Logic separation in `course.py`, `analysis.py`, etc. |
 
 ---
 
